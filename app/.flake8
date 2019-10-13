@@ -1,0 +1,9 @@
+[flake8]
+exclude =
+  migrations,
+  __pycache__,
+  manage.py,
+  settings.py,
+  core/tests/*
+max-line-length = 160
+max-complexity = 10
