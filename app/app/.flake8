@@ -3,11 +3,7 @@ exclude =
   migrations
   __pychache__,
   manage.py,
-  settings.py,
-  */docs/*,*/.tox/*,*/.venv/*
-max-line-length = 100
-
-# E12x continuation line indentation
-# E251 no spaces around keyword / parameter equals
-# E303 too many blank lines (3)
-ignore = E12,E251,E303
+  settings.py
+  ignore = E226,E302,E41
+  max-line-length = 160
+  max-complexity = 10
