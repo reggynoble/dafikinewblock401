@@ -5,5 +5,6 @@ exclude =
   manage.py,
   settings.py,
   core/tests/*
+  user/tests/*
 max-line-length = 160
 max-complexity = 10
